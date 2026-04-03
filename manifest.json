@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Open attachments with Space",
+  "version": "1.0.0",
+  "description": "Open attachments with the Space key",
+  "author": "H_Knight",
+  "icons": {
+    "48": "logo.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "open-attachments-with-space@zotero.org",
+      "update_url": "https://your-update-url.com/updates.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "8.0.*"
+    }
+  }
+}
