@@ -14,12 +14,7 @@
     <p style="font-size: 30px; font-weight: 700; margin: 10px 0 0;">
         Zotero QuickLook
     </p>
-
 </div>
-
-## 注意
-
-该插件当前主要面向 Windows + QuickLook 使用场景。
 
 ## 🔍 概述
 
@@ -32,6 +27,8 @@ Zotero QuickLook 是一个 Zotero 插件，用于提升附件预览效率。你�
 - 自定义 QuickLook 可执行文件路径
 
 ## 📦 安装
+
+#### 该插件主要面向 Windows + QuickLook 使用场景。
 
 ### 系统要求
 
