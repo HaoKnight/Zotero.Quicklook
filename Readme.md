@@ -1,14 +1,11 @@
-# Zotero QuickLook
+<h1 align="center">
+    <p>Zotero QuickLook</p>
+</h1>
 
 <div align="center">
     <img src="./logo.png" alt="Zotero QuickLook" width="128" height="128" />
 
-    **在 Zotero 中使用空格键快速预览附件，并通过方向键切换附件**
-
-    ![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
-    ![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg)
-    ![Zotero](https://img.shields.io/badge/Zotero-6.999~8.0.*-CC2936.svg)
-    ![Dependency](https://img.shields.io/badge/dependency-QuickLook-2AA198.svg)
+    在 Zotero 中使用空格键调用 Quicklook 软件快速预览附件
 
 </div>
 
