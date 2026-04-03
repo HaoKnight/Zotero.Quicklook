@@ -1,3 +1,4 @@
+# 📖 Zotero QuickLook
 <h1 align="center">
     <p>Zotero QuickLook</p>
 </h1>
