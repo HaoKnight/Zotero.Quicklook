@@ -3,9 +3,9 @@
 <div align="center">
     <table>
         <tr>
-            <td><img src="./logo_Z.png" width="125" height="125" /></td>
-            <td valign="middle"><img src="./link.svg" width="50" height="50" /></td>
-            <td><img src="./logo.png" width="128" height="128" /></td>
+            <td><img src="./logo_Z.png" alt="Zotero QuickLook" width="125" height="125" /></td>
+            <td valign="middle"><img src="./link.svg" alt="Zotero QuickLook" width="50" height="50" /></td>
+            <td><img src="./logo.png" alt="Zotero QuickLook" width="128" height="128" /></td>
         </tr>
     </table>
 
