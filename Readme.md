@@ -8,8 +8,8 @@
             <td><img src="./logo.png" width="128" height="128" /></td>
         </tr>
     </table>
-
 </div>
+
 <div align="center">
     <p style="font-size: 30px; font-weight: 700; margin: 10px 0 0;">
         Zotero QuickLook
