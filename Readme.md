@@ -103,10 +103,7 @@ Zotero QuickLook 是一个 Zotero 插件，用于提升附件预览效率。你�
 
 ## 🤝 贡献
 
-- 灵感来源于：nino
-
-  参考链接：
-  https://iring.fun/2025/01/Zotero-7%E4%B8%8EQuicklook%E7%9A%84%E8%81%94%E5%8A%A8%E6%8F%92%E4%BB%B6.html
+- 灵感来源于：nino - 主页：https://iring.fun/
 
   基于此版本更新优化，可以在zotero设置中手动指定Quicklook.exe地址
 
