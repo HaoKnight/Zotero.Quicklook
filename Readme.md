@@ -1,12 +1,19 @@
 # 📖 Zotero QuickLook
-<h1 align="center">
-    <p>Zotero QuickLook</p>
-</h1>
 
 <div align="center">
-    <img src="./logo.png" alt="Zotero QuickLook" width="128" height="128" />
+    <table>
+        <tr>
+            <td><img src="./logo_Z.png" alt="Zotero QuickLook" width="125" height="125" /></td>
+            <td valign="middle"><img src="./link.svg" alt="Zotero QuickLook" width="50" height="50" /></td>
+            <td><img src="./logo.png" alt="Zotero QuickLook" width="128" height="128" /></td>
+        </tr>
+    </table>
 
-    在 Zotero 中使用空格键调用 Quicklook 软件快速预览附件
+</div>
+<div align="center">
+    <p style="font-size: 30px; font-weight: 700; margin: 10px 0 0;">
+        Zotero QuickLook
+    </p>
 
 </div>
 
@@ -24,50 +31,25 @@ Zotero QuickLook 是一个 Zotero 插件，用于提升附件预览效率。你�
 - 在不离开 Zotero 的情况下浏览多个附件
 - 自定义 QuickLook 可执行文件路径
 
-## ✨ 功能特性
-
-### 🚀 核心功能
-
-- **空格键预览**：在条目列表按空格键打开当前附件
-- **附件切换**：按上/下方向键切换同条目下的附件
-- **多种选择支持**：支持普通文献条目附件与直接选中的文件附件
-- **自动默认路径**：首次启动自动写入 QuickLook 默认路径
-
-### ⚙️ 配置能力
-
-- **图形化设置**：在 Zotero 设置页配置 QuickLook.exe 路径
-- **路径浏览选择**：支持文件选择器选择可执行文件
-- **错误提示**：路径无效或启动失败时给出提示信息
-
 ## 📦 安装
 
 ### 系统要求
 
 - **操作系统**：Windows
-- **Zotero**：6.999 ~ 8.0.\*
-- **依赖软件**：QuickLook（已安装）
+- **Zotero**：7.0 ~ 8.0.\*
+- **依赖软件**：QuickLook（不能是微软商店版本）
 
 ### 安装方式
 
-#### 1. 使用已构建版本（推荐）
+#### 1. 安装QuickLook软件
+
+开源地址：https://github.com/QL-Win/QuickLook
+
+#### 2. 安装本插件（推荐使用已构建版本）
 
 1. 打开 `build` 目录，找到对应版本的 `.xpi` 文件。
 2. 在 Zotero 中安装该插件包。
 3. 重启 Zotero。
-
-示例文件：
-
-- `build/Zotero.Quicklook_V1.1.0.xpi`
-
-#### 2. 从源码构建后安装
-
-```powershell
-.\build.ps1
-```
-
-构建成功后，在 `build` 目录获取：
-
-- `Zotero.Quicklook_V<version>.xpi`
 
 ## 🚀 使用说明
 
@@ -121,13 +103,14 @@ Zotero QuickLook 是一个 Zotero 插件，用于提升附件预览效率。你�
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request 来改进插件。
+- 灵感来源于：nino
 
-## 📄 许可证
+  参考链接：
+  https://iring.fun/2025/01/Zotero-7%E4%B8%8EQuicklook%E7%9A%84%E8%81%94%E5%8A%A8%E6%8F%92%E4%BB%B6.html
 
-当前仓库尚未附带 LICENSE 文件。
+  基于此版本更新优化，可以在zotero设置中手动指定Quicklook.exe地址
 
-如果你准备公开发布，建议添加许可证（如 MIT）并在此处更新说明。
+- 欢迎提交 Issue 和 Pull Request 来改进插件。
 
 ---
 
