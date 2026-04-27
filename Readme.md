@@ -33,7 +33,7 @@ Zotero QuickLook 是一个 Zotero 插件，用于提升附件预览效率。你�
 ### 系统要求
 
 - **操作系统**：Windows
-- **Zotero**：7.0 ~ 8.0.\*
+- **Zotero**：7.0 ~ 9.0.\*
 - **依赖软件**：QuickLook（不能是微软商店版本）
 
 ### 安装方式

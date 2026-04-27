@@ -41,23 +41,22 @@ window.ZoteroQuickLookPrefs = {
       var { FilePicker } = ChromeUtils.importESModule(
         "chrome://zotero/content/modules/filePicker.mjs",
       );
-      const nsIFilePicker = Components.interfaces.nsIFilePicker;
       const fp = new FilePicker();
-      fp.init(window, "选择 QuickLook 可执行文件", nsIFilePicker.modeOpen);
+      fp.init(window, "选择 QuickLook 可执行文件", fp.modeOpen);
 
       if (Zotero.isWin) {
         fp.appendFilter("Applications", "*.exe");
       } else {
-        fp.appendFilters(nsIFilePicker.filterApps);
+        fp.appendFilters(fp.filterApps);
       }
-      fp.appendFilters(nsIFilePicker.filterAll);
+      fp.appendFilters(fp.filterAll);
 
       const currentValue = (this.pathInput.value || "").trim();
       if (currentValue) {
         try {
           let currentFile = Zotero.File.pathToFile(currentValue);
           if (currentFile && currentFile.parent) {
-            fp.displayDirectory = currentFile.parent;
+            fp.displayDirectory = currentFile.parent.path;
           }
         } catch (e) {
           Zotero.debug(e);
@@ -65,11 +64,11 @@ window.ZoteroQuickLookPrefs = {
       }
 
       const result = await fp.show();
-      if (result !== nsIFilePicker.returnOK || !fp.file) {
+      if (result !== fp.returnOK || !fp.file) {
         return;
       }
 
-      this.pathInput.value = fp.file.path;
+      this.pathInput.value = fp.file;
       this.saveValue();
     } catch (e) {
       Zotero.logError(e);
